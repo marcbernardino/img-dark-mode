@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Beats by Dre </title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    
+    <body>
+        <div id="light">
+        <div id="dark">
+            <button type="button" id="darkButton" onclick="changeMode()">Dark/light Mode</button>
+            <header>
+                <img id="logo" src="beatsByDre.png">
+                <nav>
+                    <a href="#">Home | </a>
+                    <a href="#">Products | </a>
+                    <a href="#">Support</a>
+                </nav>
+            </header>
+
+            <main>
+                <h2>Our company</h2>
+                <p> Beats by Dr. Dre is a premium and innovative sound company that makes music fit your lifestyle. Our products offer the best way to listen to your music on the go.</p>
+
+                <h2>Top products</h2>
+                <div id="mainPhoto"><img src="soloPros.png" id="bigPic" width="500" height="500"></div>
+                <section class="rows">
+                    <div class="columns">
+                        <button id="picButton"><img src="soloPros.png" width="250" height="250" alt="solo pros" id="soloPros"></button>
+                    </div>
+                    <div class="columns">
+                        <button id="picButton2"><img src="powerBeatsPro.png" width="250" height="250" alt="powerbeats" id="powerBeats"></button>
+                    </div>
+                    <div class="columns">
+                        <button id="picButton3"><img src="studiosWireless.png" width="250" height="250" alt="beats studio headphones" id="studioHeadphones"></button>
+                    </div>
+                </section>
+            </main>
+
+            <section>
+                <h2>Contact us</h2>
+                <form name="myForm" method="post" onsubmit="return validateForm()">
+                    First Name: <input id="first" type="text" name="fname"><br>
+                    Last Name: <input id="last" type="text" name="lname"><br>
+                    Would you like to be contacted by phone or email?  
+                    <input type="radio" name="communication" value="phone" id="phone" required> Phone
+                    <input type="radio" name="communication" value="email" id="email">Email<br>
+
+                    Phone: <input id="phoneInput" type="tel" name="number"><br>
+                    Email: <input id="emailInput" type="email" name="email"><br>
+                    Comments:<br>
+                    <textarea id="commentArea" rows="7" cols="50"></textarea><br>
+
+                    <input type="submit" id="submitBtn" type="button">
+                </form>
+            </section>
+            <footer> For educational use only. Email support at help@beatsbydre.com</footer>
+        </div>
+        </div>
+    </body>
+</html>

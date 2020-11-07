@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+.darkMode {
+    background-color: #333335;
+    color: white;
+}
+
+.darkMode section div button{
+    background-color: #333335;
+    border-color: #333335;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#light {
+    background-color: dimgray;
+}
+
+.rows {
+    display: flex;
+}
+
+.columns {
+    display: flex;
+    margin-left: 10%;
+}
+
+section div button {
+    background-color: dimgray;
+    border-color: dimgray;
+}
+
+img {
+    margin-left: 10%;
+}
+
+h2 {
+    font-size: 36px;
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#logo {
+    float: left;
+    margin-right: 50%;
+    margin-left: 40%;
+}
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    margin-left: 10%;
+}
+
+#mainPhoto {
+    margin-left: 25%;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
